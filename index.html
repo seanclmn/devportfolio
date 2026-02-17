@@ -10,8 +10,8 @@
       try {
         var t = localStorage.getItem('devportfolio-theme');
         if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
-      } catch (e) {}
-    })();
+      } catch (e) { }
+    })()
   </script>
 </head>
 
@@ -20,21 +20,20 @@
     <span class="theme-icon" aria-hidden="true"></span>
   </button>
   <h1>Sean Coleman</h1>
-  <p> I'm a software engineer with industry experience using Javascript and Javascript libraries to build scalable and
-    performant UIs (US Citizen, authorized to work in the United States).</p>
+  <p> I'm a software engineer with industry experience using Javascript/Typescript and JS libraries to build
+    scalable and performant UIs (US Citizen, authorized to work in the United States).</p>
 
 
   <h2 class="section-title">Projects</h2>
 
   <div class="projects">
-    <h3>Chat Application</h3>
-    <p>A live chat web application built with <b>React</b>, <b>NestJS</b>, and <b>GraphQL</b>. Relay was used on the
-      client for efficient
-      data
+    <h3>Live Direct Messaging Application</h3>
+    <p>A live direct messaging web application built with <b>React</b>, <b>NestJS</b>, and <b>GraphQL</b>. Relay was
+      used on the client for efficient data
       fetching and caching, and the API was built to fit the <a href="https://relay.dev/graphql/connections.htm"
         target="_blank"> relay
         specification</a>.</p>
-    <a href="https://github.com/seanclmn/chat" target="_blank">View on GitHub</a>
+    <a href="https://github.com/seanclmn/chat" target="_blank" class="github-link">View on GitHub</a>
   </div>
 
   <div class="projects">
@@ -43,7 +42,7 @@
       and hosted via Google
       Cloud
       Run.</p>
-    <a href="https://github.com/seanclmn/narwhal" target="_blank">View on GitHub</a>
+    <a href="https://github.com/seanclmn/narwhal" target="_blank" class="github-link">View on GitHub</a>
   </div>
 
   <script src="index.js"></script>

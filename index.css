@@ -10,7 +10,7 @@
 :root {
   --bg: #f8f6f3;
   --text: #1a1a1a;
-  --text-muted: #272626;
+  --text-muted: #494949;
   --accent: #00319c;
   --accent-hover: #1d4ed8;
   --surface: #ffffff;
@@ -134,7 +134,7 @@ h1 {
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 18px;
   margin-bottom: 1rem;
 }
 
@@ -147,20 +147,33 @@ p {
 }
 
 a {
-  color: var(--accent);
+  color: var(--text-muted);
+
+  &:hover {
+    color: var(--accent-hover);
+  }
 }
 
 .section-title {
   margin-top: 4rem;
   margin-bottom: 2rem;
+  font-size: 3rem;
 }
 
 .projects {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .project-header {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+
+.github-link {
+  margin-top: 4rem;
+
+  &:hover {
+    color: var(--accent-hover);
+  }
 }
