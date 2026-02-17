@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sean Coleman</title>
   <link rel="stylesheet" href="index.css">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('devportfolio-theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
 </head>
 
 <body>

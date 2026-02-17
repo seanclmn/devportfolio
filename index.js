@@ -32,5 +32,19 @@
   }
 
   init();
+
+  function showPage() {
+    root.classList.add('ready');
+  }
+  if (document.fonts && document.fonts.ready) {
+    var fallback = setTimeout(showPage, 3000);
+    document.fonts.ready.then(function () {
+      clearTimeout(fallback);
+      showPage();
+    });
+  } else {
+    showPage();
+  }
+
   document.querySelector('.theme-toggle').addEventListener('click', toggle);
 })();
