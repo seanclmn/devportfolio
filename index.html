@@ -8,7 +8,7 @@
   <script>
     (function () {
       try {
-        var t = localStorage.getItem('devportfolio-theme');
+        let t = localStorage.getItem('devportfolio-theme');
         if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
       } catch (e) { }
     })()
@@ -21,8 +21,8 @@
   </button>
   <h1>Sean Coleman</h1>
   <p> I'm a software engineer with industry experience using Javascript/Typescript and JS libraries to build
-    scalable and performant UIs (US Citizen, authorized to work in the United States).</p>
-
+    scalable and performant web and mobile UIs (US Citizen and authorized to work in the United States).</p>
+  <p><a href="#footer">Contact me</a></p>
 
   <h2 class="section-title">Projects</h2>
 
@@ -45,7 +45,27 @@
     <a href="https://github.com/seanclmn/narwhal" target="_blank" class="github-link">View on GitHub</a>
   </div>
 
+  <h2 class="section-title">Skills</h2>
+
+  <div class="skills">
+    <h3>Languages</h3>
+    <p>Javascript/Typescript, Elixir, and HTML/CSS</p>
+    <h3>Libraries & Frameworks</h3>
+    <p>React, GraphQL(Relay), NextJS, Angular, GatsbyJS, ReactNative, TailwindCSS, NestJS, Elixir Phoenix,
+      Phoenix LiveView, PostgreSQL, and MySQL</p>
+    <h3>Testing</h3>
+    <p>Jest, Cypress, Storybook</p>
+    <h3>Miscellaneous Tools</h3>
+    <p>Docker, GCP, Git, XCode, and Android Studio</p>
+  </div>
+
+
   <script src="index.js"></script>
 </body>
+
+<footer id="footer">
+  <p>© 2026 Sean Coleman. All rights reserved.</p>
+  <p>Email: <a href="mailto:sean@seancoleman.dev">seanclmn1@gmail.com</a></p>
+</footer>
 
 </html>
