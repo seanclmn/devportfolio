@@ -6,7 +6,7 @@
     try { return localStorage.getItem(STORAGE_KEY); } catch (e) { return null; }
   }
   function setStored(value) {
-    try { localStorage.setItem(STORAGE_KEY, value); } catch (e) {}
+    try { localStorage.setItem(STORAGE_KEY, value); } catch (e) { }
   }
 
   function applyTheme(theme) {
@@ -45,6 +45,19 @@
   } else {
     showPage();
   }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    let username = "seanclmn1";
+    let domain = "gmail.com";
+
+    const link = document.getElementById("emailLink");
+    if (link) {
+      link.href = `mailto:${username}@${domain}`;
+    }
+
+    document.querySelector('.theme-toggle')
+      ?.addEventListener('click', toggle);
+  });
 
   document.querySelector('.theme-toggle').addEventListener('click', toggle);
 })();
