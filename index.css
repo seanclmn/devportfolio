@@ -200,12 +200,11 @@ a {
 }
 
 .demo-link {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   transition: background-color 0.2s ease, color 0.2s ease;
 
   &:hover {
-    background-color: var(--accent-hover);
-    color: var(--bg);
+    color: var(--accent-hover);
   }
 }
