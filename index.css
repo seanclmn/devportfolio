@@ -22,8 +22,8 @@
   --bg: #0f0f0f;
   --text: #f0f0f0;
   --text-muted: #a0a0a0;
-  --accent: #d8c8ff;
-  --accent-hover: #ffffff;
+  --accent: #6b9fff;
+  --accent-hover: #93b8ff;
   --surface: #1a1a1a;
   --border: #2a2a2a;
 }
@@ -34,8 +34,8 @@
     --bg: #0f0f0f;
     --text: #f0f0f0;
     --text-muted: #a0a0a0;
-    --accent: #8b5cf6;
-    --accent-hover: #a78bfa;
+    --accent: #6b9fff;
+    --accent-hover: #93b8ff;
     --surface: #1a1a1a;
     --border: #2a2a2a;
   }
