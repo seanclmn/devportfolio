@@ -216,3 +216,33 @@ a {
   margin-top: 1rem;
   border: 1px solid var(--border);
 }
+
+#emailLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+#resumeLink {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+#resumeIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.footer-content {
+  width: 100%;
+}
