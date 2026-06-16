@@ -176,7 +176,13 @@ a {
   }
 }
 
+.header {
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+}
+
 .section-container {
+  margin-top: 8rem;
   margin-bottom: 4rem;
 }
 
