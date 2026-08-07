@@ -182,7 +182,7 @@ a {
 }
 
 .section-container {
-  margin-top: 8rem;
+  margin-top: 4rem;
   margin-bottom: 4rem;
 }
 
@@ -198,11 +198,6 @@ a {
   &:hover {
     color: var(--accent-hover);
   }
-}
-
-.porygon {
-  width: 140px;
-  height: 140px;
 }
 
 .demo-link {
@@ -251,4 +246,8 @@ a {
 
 .footer-content {
   width: 100%;
+}
+
+.job-container {
+  margin-bottom: 3rem;
 }
